@@ -1,0 +1,109 @@
+.jumbotron.jumbotron-main {
+    height: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #333;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin: 0;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #333;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background: #333;
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: baseline;
+    // background: linear-gradient(280deg, rgb(167, 194, 197), rgb(255, 255, 255));
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 5.5em;
+    margin-bottom: 0;
+    margin-left: 0em;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.jumbotron p {
+    margin-bottom: 455px;
+    font-size: 23px;
+    font-weight: 200;
+    margin-left: 0em;
+    margin-top: .5em;
+}
+
+
+#nokey {
+    box-sizing: border-box;
+    height: 75%;
+    margin: 0;
+    padding: 0em;
+    background-color: whitesmoke;
+    overflow: hidden;
+    z-index: -1;
+}
+
+hr {
+    border-color: #333;
+}
+
+// /* For devices which are smaller than 960 pixels */
+// @media only screen and (max-width: 959px) {
+//     #particles-js {
+//         margin: auto;
+//     }
+//  }
+ 
+//  /* For Tablets */
+//  @media only screen and (min-width: 768px) and (max-width: 959px) {
+//     #particles-js {
+//         margin: auto;
+//     }
+//  }
+ 
+//  /* For all mobiles */
+//  @media only screen and (max-width: 767px) {
+//     #particles-js {
+//         margin: auto;
+//     }
+//  }
+ 
+//  /* Mobile Landscape Size to Tablet Portrait  */
+//  @media only screen and (min-width: 480px) and (max-width: 767px) {
+//     #particles-js {
+//         margin: auto;
+//     }
+//  }
+ 
+//  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+//  @media only screen and (max-width: 479px) {
+//     #particles-js {
+//         margin: auto;
+//     }
+//  }

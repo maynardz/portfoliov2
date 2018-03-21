@@ -1,0 +1,39 @@
+Master Branch: 
+    .Just keep up to date
+Set up: 
+    done
+Gulp: 
+    ..need to add minify for node modules.
+Bootstrap and jQuery: 
+    ...some basic lesons sprinkled in?
+structure:
+    ....stub out other views
+    ..check out startbs coming soon
+    ..capture some snippets of code in mp4
+Sass:
+    ..sass-starter
+flexbox tutorials...
+    .starter stuff
+Less tutorials: 
+    ...need a tutorial that uses less
+Navbar:
+    ..just keep it functional
+Header:
+    .keep it functional for now
+Portfolio section:
+    ...get modals working
+About section:
+    ..just get started
+    ..need some transitions.
+Footer: 
+    ..just get started.
+Modals:
+    ..do some cool stuff
+Projects:
+    Add projects...
+Contact
+    .hook up formspree
+    ...hook up Firebase?
+Deployment:
+    .github pages
+    ...heroku

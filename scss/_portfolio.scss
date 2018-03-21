@@ -1,0 +1,114 @@
+/* ------------------------------
+Portfolio Section
+--------------------------------*/
+#portfolio {
+    background:#333;
+    background: linear-gradient(110deg, #333, grey);
+    padding: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+  
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.section-title {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-left: -0.3em;
+    font-size: 40px;
+}
+  
+#portfolio .portfolio-item .details {
+    height: 260px;
+    background: #333;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    transition: 0.8s;
+    text-align: center;
+}
+  
+#portfolio .portfolio-item .details h4 {
+    font-size: 30px;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    transform: translate3d(0, -15px, 0);
+    font-weight: 700;
+    color: whitesmoke;
+    // margin-top: 1.3em;
+}
+  
+#portfolio .portfolio-item:hover .details {
+    opacity: 0.8;
+}
+  
+  .mfp-title {
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+#myCarousel {
+    // margin-top: 2em;
+    object-fit: cover;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.sub-header {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-right: 0em;
+    font-size: 35px;
+}
+
+// .anchor {
+//     display: block;
+//     position: relative;
+//     top: 500px;
+//     visibility: hidden;
+// }
+
+
+/* For devices which are smaller than 960 pixels */
+@media only screen and (max-width: 959px) {
+    #myCarousel {
+        margin: auto;
+    }
+ }
+ 
+ /* For Tablets */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    #myCarousel {
+        margin: auto;
+    }
+ }
+ 
+ /* For all mobiles */
+ @media only screen and (max-width: 767px) {
+    #myCarousel {
+        margin: auto;
+    }
+ }
+ 
+ /* Mobile Landscape Size to Tablet Portrait  */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    #myCarousel {
+        margin: auto;
+    }
+ }
+ 
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+ @media only screen and (max-width: 479px) {
+    #myCarousel {
+        margin: auto;
+    }
+ }
+
+

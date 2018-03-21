@@ -1,0 +1,9 @@
+{
+    "plugins": ["my-theme", "expandable-chapters", "youtube"],
+    "pluginsConfig": {
+        "my-theme": {
+            "font-family": "sans"
+        }
+    },
+    "root": "./docs"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "efa-portfoliostarter",
+  "version": "1.0.0",
+  "description": "A repo for getting started on developer portfolio.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter.git"
+  },
+  "author": "Paul O'Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/issues"
+  },
+  "homepage": "https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-filter": "^5.1.0",
+    "gulp-header": "^1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
+    "wowjs": "^1.1.3"
+  }
+}
