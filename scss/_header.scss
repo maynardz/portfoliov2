@@ -73,37 +73,138 @@ hr {
     border-color: #333;
 }
 
-// /* For devices which are smaller than 960 pixels */
-// @media only screen and (max-width: 959px) {
-//     #particles-js {
-//         margin: auto;
-//     }
-//  }
+/* For devices which are smaller than 960 pixels */
+@media only screen and (max-width: 959px) {
+    #particles-js {
+        margin: auto;
+    }
+ }
  
-//  /* For Tablets */
-//  @media only screen and (min-width: 768px) and (max-width: 959px) {
-//     #particles-js {
-//         margin: auto;
-//     }
-//  }
+ /* For Tablets */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    #particles-js {
+        margin: auto;
+    }
+ }
  
-//  /* For all mobiles */
-//  @media only screen and (max-width: 767px) {
-//     #particles-js {
-//         margin: auto;
-//     }
-//  }
+ /* For all mobiles */
+ @media only screen and (max-width: 767px) {
+    #particles-js {
+        margin: auto;
+    }
+ }
  
-//  /* Mobile Landscape Size to Tablet Portrait  */
-//  @media only screen and (min-width: 480px) and (max-width: 767px) {
-//     #particles-js {
-//         margin: auto;
-//     }
-//  }
+ /* Mobile Landscape Size to Tablet Portrait  */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    #particles-js {
+        margin: auto;
+    }
+ }
  
-//  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-//  @media only screen and (max-width: 479px) {
-//     #particles-js {
-//         margin: auto;
-//     }
-//  }
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+ @media only screen and (max-width: 479px) {
+    #particles-js {
+        margin: auto;
+    }
+ }
+
+ /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    #particles-js {
+        margin: auto;
+    }
+}
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    #particles-js {
+        margin: auto;
+    }
+}
