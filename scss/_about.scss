@@ -49,9 +49,57 @@ p, .lead {
     font-size: 19.3px;
 }
 
+.devlogohtml {
+    height: 60px;
+    width: 60px;
+    margin-left: 3em;
+}
+
+.devlogocss {
+    height: 60px;
+    width: 60px;
+    margin-left: 3em;
+}
+
+.devlogojs {
+    height: 53px;
+    width: 53px;
+    margin-left: 3em;
+}
+
+.devlogonode {
+    height: 55px;
+    width: 55px;
+    margin-left: 3em;
+}
+
+.devlogopost {
+    height: 55px;
+    width: 55px;
+    margin-left: 3em;
+}
+
+.devlogops {
+    height: 55px;
+    width: 55px;
+    margin-left: 3em;
+}
+
+.devlogoreact {
+    height: 53px;
+    width: 53px;
+    margin-left: 3em;
+}
+
+.devlogogit {
+    height: 55px;
+    width: 55px;
+    margin-left: 3em;
+}
+
 /* For devices which are smaller than 960 pixels */
 @media only screen and (max-width: 959px) {
-    .picture {
+    .picture, {
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -61,7 +109,7 @@ p, .lead {
  
  /* For Tablets */
  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .picture {
+    .picture, {
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -71,7 +119,7 @@ p, .lead {
  
  /* For all mobiles */
  @media only screen and (max-width: 767px) {
-    .picture {
+    .picture, {
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -81,7 +129,7 @@ p, .lead {
  
  /* Mobile Landscape Size to Tablet Portrait  */
  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .picture {
+    .picture, {
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -91,10 +139,46 @@ p, .lead {
  
  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
  @media only screen and (max-width: 479px) {
-    .picture {
+    .picture, {
         margin-left: auto;
         margin-right: auto;
         display: block;
         width: 50%;
+    }
+ }
+
+
+/* For devices which are smaller than 960 pixels */
+@media only screen and (max-width: 959px) {
+    .devlogocss, .devlogogit, .devlogohtml, .devlogojs, .devlogonode, .devlogopost, .devlogops, .devlogoreact {
+        margin-left: -1em;
+    }
+ }
+ 
+ /* For Tablets */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .devlogocss, .devlogogit, .devlogohtml, .devlogojs, .devlogonode, .devlogopost, .devlogops, .devlogoreact {
+        margin-left: -1em;
+    }
+ }
+ 
+ /* For all mobiles */
+ @media only screen and (max-width: 767px) {
+    .devlogocss, .devlogogit, .devlogohtml, .devlogojs, .devlogonode, .devlogopost, .devlogops, .devlogoreact {
+        margin-left: -1em;
+    }
+ }
+ 
+ /* Mobile Landscape Size to Tablet Portrait  */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .devlogocss, .devlogogit, .devlogohtml, .devlogojs, .devlogonode, .devlogopost, .devlogops, .devlogoreact {
+        margin-left: -1em;
+    }
+ }
+ 
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+ @media only screen and (max-width: 479px) {
+    .devlogocss, .devlogogit, .devlogohtml, .devlogojs, .devlogonode, .devlogopost, .devlogops, .devlogoreact {
+        margin-left: -1em;
     }
  }
