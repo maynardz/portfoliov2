@@ -221,12 +221,12 @@ nav.visible li:last-child a {
 
 /* Main Body CSS */
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   text-align: center;
+// }
 
 // h1 {
   // font-size: 60px;
@@ -286,5 +286,14 @@ article a:hover {
     display: none;
   }
 }
+
+@media screen and (max-width:800px) {
+
+  #resume, {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
 
  

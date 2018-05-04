@@ -169,12 +169,6 @@ nav.visible li:last-child a {
   text-indent: 12vw !important; }
 
 /* Main Body CSS */
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
-
 article a {
   color: #fff;
   text-decoration: none;
@@ -204,6 +198,11 @@ article a:hover {
 @media screen and (max-width: 800px) {
   #noshow {
     display: none; } }
+
+@media screen and (max-width: 800px) {
+  #resume {
+    text-align: center;
+    font-size: 14px; } }
 
 .jumbotron.jumbotron-main {
   height: 100%;
