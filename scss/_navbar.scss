@@ -274,11 +274,17 @@ article a:hover {
 
 @media screen and (max-width:800px) {
 
-  h1 {
-    padding-top:80px;
-    font-size: 60px;
+  a, {
+    padding-top:50px;
+    font-size: 10px;
   }
 }
 
+@media screen and (max-width:800px) {
+
+  #noshow, {
+    display: none;
+  }
+}
 
  
