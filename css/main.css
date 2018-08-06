@@ -450,8 +450,7 @@ p, .lead {
 /* For Tablets */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .picture {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: block;
     width: 50%; } }
 
