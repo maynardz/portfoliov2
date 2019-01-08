@@ -332,6 +332,10 @@ Portfolio Section
   margin-right: 0em;
   font-size: 35px; }
 
+/* .port_titles {
+  text-decoration: underline;
+} */
+
 /* For devices which are smaller than 960 pixels */
 @media only screen and (max-width: 959px) {
   #myCarousel {
